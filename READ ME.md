@@ -141,11 +141,4 @@ print('F1 Score:', f1)
 Hasil yang didapat adalah 0.8467153284671534 atau 84,67%. Jadi, model ini memiliki keseimbangan antara presisi dan recall. Karena kita mencari tahu tentang sisa masa manfaat pada baterai maka model yang presisi diperlukan agar kefektifitasan dalam penggunaan baterai dan kemungkinan terjadinya kesalahan semakin sedikit.
 
 ## Deployment
-pada bagian ini anda memberikan link project yang diupload melalui streamlit share. boleh ditambahkan screen shoot halaman webnya.
-
-**---Ini adalah bagian akhir laporan---**
-
-_Catatan:_
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
-
+[My Estimation App](https://app-baterai-rul-vou5e4fesj95bbj3c5ymdj.streamlit.app/)

@@ -31,14 +31,15 @@ Dataset yang saya gunakan adalah dataset yang berasal dari Kaggle. Dataset ini b
 [Battery Remaining Useful Life (RUL)](https://www.kaggle.com/datasets/ignaciovinuales/battery-remaining-useful-life-rul/data).
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
-- Discharge Time (s)        : merupakan waktu penggunaan baterai dalam satuan detik.
-- Decrement 3.6-3.4V (s)    : merupakan waktu pengurangan baterai pada saat 3.6-2.4V dalam satuan detik.
-- Max. Voltage Dischar. (V) : merupakan pelepasan tegangan maksimal dengan satuan Voltage.
-- Min. Voltage Charg. (V)   : merupakan muatan tegangan minimum dengan satuan voltage.
-- Time at 4.15V (s)         : merupakan waktu pengurangan baterai pada saat 4.15V dalam satuan detik.
-- Time constant current (s) : merupakan arus waktu konstan dalam satuan detik.
-- Charging time (s)         : merupakan waktu pengisian daya dalam satuan detik
-- RUL                       : merupakan target atau sisa masa manfaat pada baterai
+- Cycle_Index               : merupakan nomor perputaran = float64
+- Discharge Time (s)        : merupakan waktu penggunaan baterai dalam satuan detik. = float64
+- Decrement 3.6-3.4V (s)    : merupakan waktu pengurangan baterai pada saat 3.6-2.4V dalam satuan detik. = float64
+- Max. Voltage Dischar. (V) : merupakan pelepasan tegangan maksimal dengan satuan Voltage. = float64
+- Min. Voltage Charg. (V)   : merupakan muatan tegangan minimum dengan satuan voltage. - float64
+- Time at 4.15V (s)         : merupakan waktu pengurangan baterai pada saat 4.15V dalam satuan detik. = float64
+- Time constant current (s) : merupakan arus waktu konstan dalam satuan detik. = float64
+- Charging time (s)         : merupakan waktu pengisian daya dalam satuan detik = float64
+- RUL                       : merupakan target atau sisa masa manfaat pada baterai = int64
 
 ## Data Preparation
 

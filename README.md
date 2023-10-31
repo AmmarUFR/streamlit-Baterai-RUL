@@ -1,4 +1,4 @@
-![image](https://github.com/AmmarUFR/streamlit-Baterai-RUL/assets/149166346/eb7bc694-fc97-43be-889e-9301f496a64f)![image](https://github.com/AmmarUFR/streamlit-Baterai-RUL/assets/149166346/e2a3d136-9db1-4bf5-9ae5-b8f48e8172ad)# Laporan Proyek Machine Learning
+# Laporan Proyek Machine Learning
 ### Nama  : Ammar Umran Fauzi Ramadhan
 ### Nim   : 211351016
 ### Kelas : Pagi B

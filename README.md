@@ -178,3 +178,4 @@ Hasil yang didapat adalah 0.8467153284671534 atau 84,67%. Jadi, model ini memili
 
 ## Deployment
 [My Estimation App](https://app-baterai-rul-vou5e4fesj95bbj3c5ymdj.streamlit.app/)
+![Alt text](image3.png)<br>

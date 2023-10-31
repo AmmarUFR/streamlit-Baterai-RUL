@@ -1,4 +1,4 @@
-# Laporan Proyek Machine Learning
+![image](https://github.com/AmmarUFR/streamlit-Baterai-RUL/assets/149166346/eb7bc694-fc97-43be-889e-9301f496a64f)![image](https://github.com/AmmarUFR/streamlit-Baterai-RUL/assets/149166346/e2a3d136-9db1-4bf5-9ae5-b8f48e8172ad)# Laporan Proyek Machine Learning
 ### Nama  : Ammar Umran Fauzi Ramadhan
 ### Nim   : 211351016
 ### Kelas : Pagi B
@@ -110,6 +110,17 @@ plt.figure(figsize=(10,8))
 sns.heatmap(df.corr(),annot=True)
 ```
 ![Alt text](image.png)<br>
+``` bash
+models = df.groupby('Discharge Time (s)').count()[['Min. Voltage Charg. (V)']].sort_values(by= 'Min. Voltage Charg. (V)', ascending=True).reset_index()
+models = models.rename(columns={'Min. Voltage Charg. (V)': 'numberOfBattery'})
+```
+``` bash
+fig = plt.figure(figsize=(15,5))
+sns.barplot(x=models['Discharge Time (s)'], y=models['numberOfBattery'], color='royalblue')
+plt.xticks(rotation=60)
+```
+![Alt text](image2.png)<br>
+
 ## Modeling
 Lakukan seleksi fitur dengan memisahkan mana saja atribut yang akan dijadikan sebagai fitur dan atribut mana yang dijadikan label
 ``` bash

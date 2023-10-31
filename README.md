@@ -56,10 +56,34 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 ```
 
-### Memanggil Dataset
-
+### Import File
 ``` bash
-df = pd.read_csv('Battery_RUL.csv')
+from google.colab import files
+```
+
+### Upload Token Kaggle
+``` bash
+files.upload()
+```
+
+### Membuat Folde Kaggle
+``` bash
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+!ls ~/.kaggle
+```
+
+### Download Dataset
+``` bash
+!kaggle datasets download -d ignaciovinuales/battery-remaining-useful-life-rul --force
+```
+
+Kemudian, ekstrak file
+``` bash
+!mkdir battery-remaining-useful-life-rul
+!unzip battery-remaining-useful-life-rul.zip -d battery-remaining-useful-life-rul
+!ls battery-remaining-useful-life-rul
 ```
 
 ### Eksploratory Data Analysis Sederhana

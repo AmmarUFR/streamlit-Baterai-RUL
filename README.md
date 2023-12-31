@@ -177,5 +177,5 @@ print('F1 Score:', f1)
 Hasil yang didapat adalah 0.8467153284671534 atau 84,67%. Jadi, model ini memiliki keseimbangan antara presisi dan recall. Karena kita mencari tahu tentang sisa masa manfaat pada baterai maka model yang presisi diperlukan agar kefektifitasan dalam penggunaan baterai dan kemungkinan terjadinya kesalahan semakin sedikit.
 
 ## Deployment
-[My Estimation App](https://app-baterai-rul-vou5e4fesj95bbj3c5ymdj.streamlit.app/)
+[My Estimation App](https://appglass.streamlit.app/)
 ![Alt text](image3.png)<br>
